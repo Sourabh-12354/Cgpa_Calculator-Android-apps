@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/colormy"
+    tools:context=".SecondPage">
+    <TextView
+        android:padding="15dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Choose Semister:"
+        android:textStyle="bold"/>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="320dp">
+    <RadioGroup
+        android:id="@+id/groupBtn"
+        android:layout_width="388dp"
+        android:layout_height="520dp">
+
+        <RadioButton
+            android:id="@+id/radioBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:text="@string/sem1"
+            android:textSize="24sp"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sem2"
+            android:textSize="24sp"
+            tools:ignore="TouchTargetSizeCheck">
+
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioBtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sem3"
+            android:textSize="24sp"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioBtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sem4"
+            android:textSize="24sp"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioBtn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sem5"
+            android:textSize="24sp"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioBtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sem6"
+            android:textSize="24sp"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioBtn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sem7"
+            android:textSize="24sp"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioBtn8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sem8"
+            android:textSize="24sp">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioBtn9"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sem9"
+            android:textSize="24sp">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioBtn10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sem10"
+            android:textSize="24sp">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioBtn11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sem11"
+            android:textSize="24sp">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/radioBtn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sem12"
+            android:textSize="24sp">
+
+        </RadioButton>
+    </RadioGroup>
+</ScrollView>
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/nextBtn"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="90dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/button_text"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold">>
+    </Button>
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed By: Sourabh Roy Biswes"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"></TextView>
+</LinearLayout>

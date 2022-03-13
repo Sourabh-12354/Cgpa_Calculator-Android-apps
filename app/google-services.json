@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "722337716927",
+    "firebase_url": "https://radiobutton-b32bb.firebaseio.com",
+    "project_id": "radiobutton-b32bb",
+    "storage_bucket": "radiobutton-b32bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722337716927:android:d8a078d63708aeb5eb040a",
+        "android_client_info": {
+          "package_name": "com.example.radiobutton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722337716927-lqf5ud8cma0o384u6fbs8bn6ruose9sf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoE62ZZ9eJUle2D2_yw9mTujiHDuM_yE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722337716927-lqf5ud8cma0o384u6fbs8bn6ruose9sf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

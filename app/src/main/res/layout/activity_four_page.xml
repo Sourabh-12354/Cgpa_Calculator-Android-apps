@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colormy"
+    tools:context=".FourPage">
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center"
+     android:padding="30dp"
+     android:textStyle="bold"
+     android:text="CALCULATE CGPA"
+     android:textSize="30sp">
+
+ </TextView>
+
+ <ScrollView
+     android:id="@+id/Scroll_id"
+     android:layout_width="match_parent"
+     android:layout_height="300dp">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+   <TextView
+       android:id="@+id/s1sgpa"
+       android:layout_width="193dp"
+       android:layout_height="49dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="60dp"
+       android:gravity="center"
+       android:text="@string/semi1"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi1_sgpa"
+       android:layout_width="171dp"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="60dp"
+       android:hint="@string/semi1"
+       android:inputType="numberDecimal"
+       android:textSize="20sp" />
+
+   <TextView
+       android:id="@+id/s1crdt"
+       android:layout_width="wrap_content"
+       android:layout_height="46dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="120dp"
+       android:gravity="center"
+       android:text="@string/sem1crdt"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi1_credit"
+       android:inputType="numberDecimal"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="120dp"
+       android:hint="@string/sem1crdt"
+       android:textSize="20sp" />
+
+   <TextView
+       android:id="@+id/s2sgpa"
+       android:layout_width="194dp"
+       android:layout_height="46dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="180dp"
+       android:gravity="center"
+       android:text="@string/semi2"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi2_sgpa"
+       android:layout_width="172dp"
+       android:inputType="numberDecimal"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="180dp"
+       android:hint="@string/semi2"
+       android:textSize="20sp" />
+   <TextView
+       android:id="@+id/s2crdt"
+       android:layout_width="wrap_content"
+       android:layout_height="46dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="240dp"
+       android:gravity="center"
+       android:text="@string/sem2crdt"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi2_credit"
+       android:inputType="numberDecimal"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="240dp"
+       android:hint="@string/sem2crdt"
+       android:textSize="20sp" />
+   <TextView
+       android:id="@+id/s3sgpa"
+       android:layout_width="193dp"
+       android:layout_height="49dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="300dp"
+       android:gravity="center"
+       android:text="@string/semi3"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi3_sgpa"
+       android:layout_width="171dp"
+       android:inputType="numberDecimal"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="300dp"
+       android:hint="@string/semi3"
+       android:textSize="20sp" />
+   <TextView
+       android:id="@+id/s3crdt"
+       android:layout_width="wrap_content"
+       android:layout_height="46dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="360dp"
+       android:gravity="center"
+       android:text="@string/sem3crdt"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi3_credit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:inputType="numberDecimal"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="360dp"
+       android:hint="@string/sem3crdt"
+       android:textSize="20sp" />
+
+   <TextView
+       android:id="@+id/s4sgpa"
+       android:layout_width="193dp"
+       android:layout_height="49dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="420dp"
+       android:gravity="center"
+       android:text="@string/semi4"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi4_sgpa"
+       android:layout_width="171dp"
+       android:inputType="numberDecimal"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="420dp"
+       android:hint="@string/semi4"
+       android:textSize="20sp" />
+
+   <TextView
+       android:id="@+id/s4crdt"
+       android:layout_width="wrap_content"
+       android:layout_height="46dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="480dp"
+       android:gravity="center"
+       android:text="@string/sem4crdt"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi4_credit"
+       android:layout_width="wrap_content"
+       android:inputType="numberDecimal"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="480dp"
+       android:hint="@string/sem4crdt"
+       android:textSize="20sp" />
+
+   <TextView
+       android:id="@+id/s5sgpa"
+       android:layout_width="193dp"
+       android:layout_height="49dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="540dp"
+       android:gravity="center"
+       android:text="@string/semi5"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi5_sgpa"
+       android:layout_width="171dp"
+       android:inputType="numberDecimal"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="540dp"
+       android:hint="@string/semi5"
+       android:textSize="20sp" />
+   <TextView
+       android:id="@+id/s5crdt"
+       android:layout_width="wrap_content"
+       android:layout_height="46dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="600dp"
+       android:gravity="center"
+       android:text="@string/sem5crdt"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi5_credit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:inputType="numberDecimal"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="600dp"
+       android:hint="@string/sem5crdt"
+       android:textSize="20sp" />
+
+   <TextView
+       android:id="@+id/s6sgpa"
+       android:layout_width="193dp"
+       android:layout_height="49dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="660dp"
+       android:gravity="center"
+       android:text="@string/semi6"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi6_sgpa"
+       android:layout_width="171dp"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:inputType="numberDecimal"
+       android:layout_marginTop="660dp"
+       android:hint="@string/semi6"
+       android:textSize="20sp" />
+
+   <TextView
+       android:id="@+id/s6crdt"
+       android:layout_width="wrap_content"
+       android:layout_height="46dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="720dp"
+       android:gravity="center"
+       android:text="@string/sem6crdt"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi6_credit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:inputType="numberDecimal"
+       android:layout_marginTop="720dp"
+       android:hint="@string/sem6crdt"
+       android:textSize="20sp" />
+
+   <TextView
+       android:id="@+id/s7sgpa"
+       android:layout_width="193dp"
+       android:layout_height="49dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="780dp"
+       android:gravity="center"
+       android:text="@string/semi7"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi7_sgpa"
+       android:layout_width="171dp"
+       android:inputType="numberDecimal"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="780dp"
+       android:hint="@string/semi7"
+       android:textSize="20sp" />
+   <TextView
+       android:id="@+id/s7crdt"
+       android:layout_width="wrap_content"
+       android:layout_height="46dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="840dp"
+       android:gravity="center"
+       android:text="@string/sem7crdt"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi7_credit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:inputType="numberDecimal"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="840dp"
+       android:hint="@string/sem7crdt"
+       android:textSize="20sp" />
+
+   <TextView
+       android:id="@+id/s8sgpa"
+       android:layout_width="193dp"
+       android:layout_height="49dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="900dp"
+       android:gravity="center"
+       android:text="@string/semi8"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi8_sgpa"
+       android:layout_width="171dp"
+       android:inputType="numberDecimal"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="900dp"
+       android:hint="@string/semi8"
+       android:textSize="20sp" />
+   <TextView
+       android:id="@+id/s8crdt"
+       android:layout_width="wrap_content"
+       android:layout_height="46dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="960dp"
+       android:gravity="center"
+       android:text="@string/sem8crdt"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi8_credit"
+       android:layout_width="wrap_content"
+       android:inputType="numberDecimal"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="960dp"
+       android:hint="@string/sem8crdt"
+       android:textSize="20sp" />
+
+   <TextView
+       android:id="@+id/s9sgpa"
+       android:layout_width="193dp"
+       android:layout_height="49dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="1020dp"
+       android:gravity="center"
+       android:text="@string/semi9"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi9_sgpa"
+       android:layout_width="171dp"
+       android:inputType="numberDecimal"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="1020dp"
+       android:hint="@string/semi9"
+       android:textSize="20sp" />
+   <TextView
+       android:id="@+id/s9crdt"
+       android:layout_width="wrap_content"
+       android:layout_height="46dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="1080dp"
+       android:gravity="center"
+       android:text="@string/sem9crdt"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi9_credit"
+       android:layout_width="wrap_content"
+       android:inputType="numberDecimal"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="1080dp"
+       android:hint="@string/sem9crdt"
+       android:textSize="20sp" />
+
+   <TextView
+       android:id="@+id/s10sgpa"
+       android:layout_width="193dp"
+       android:layout_height="49dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="1120dp"
+       android:gravity="center"
+       android:text="@string/semi10"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi10_sgpa"
+       android:layout_width="171dp"
+       android:inputType="numberDecimal"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="1120dp"
+       android:hint="@string/semi10"
+       android:textSize="20sp" />
+   <TextView
+       android:id="@+id/s10crdt"
+       android:layout_width="wrap_content"
+       android:layout_height="46dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="1180dp"
+       android:gravity="center"
+       android:text="@string/sem10crdt"
+       android:textSize="24sp" />
+
+   <EditText
+       android:id="@+id/Semi10_credit"
+       android:inputType="numberDecimal"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="1180dp"
+       android:hint="@string/sem10crdt"
+       android:textSize="20sp" />
+
+   <TextView
+       android:id="@+id/s11sgpa"
+       android:layout_width="193dp"
+       android:layout_height="49dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="1240dp"
+       android:gravity="center"
+       android:text="@string/semi11"
+       android:textSize="24sp" />
+
+   <EditText
+       android:inputType="numberDecimal"
+       android:id="@+id/Semi11_sgpa"
+       android:layout_width="171dp"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="1240dp"
+       android:hint="@string/semi11"
+       android:textSize="20sp" />
+   <TextView
+       android:id="@+id/s11crdt"
+       android:layout_width="wrap_content"
+       android:layout_height="46dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="1300dp"
+       android:gravity="center"
+       android:text="@string/sem11crdt"
+       android:textSize="24sp" />
+
+   <EditText
+       android:inputType="numberDecimal"
+       android:id="@+id/Semi11_credit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="1300dp"
+       android:hint="@string/sem11crdt"
+       android:textSize="20sp" />
+
+   <TextView
+       android:id="@+id/s12sgpa"
+       android:layout_width="193dp"
+       android:layout_height="49dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="1360dp"
+       android:gravity="center"
+       android:text="@string/semi12"
+       android:textSize="24sp" />
+
+   <EditText
+       android:inputType="numberDecimal"
+       android:id="@+id/Semi12_sgpa"
+       android:layout_width="171dp"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="1360dp"
+       android:hint="@string/semi12"
+       android:textSize="20sp" />
+   <TextView
+       android:id="@+id/s12crdt"
+       android:layout_width="wrap_content"
+       android:layout_height="46dp"
+       android:layout_marginLeft="13dp"
+       android:layout_marginTop="1420dp"
+       android:gravity="center"
+       android:text="@string/sem12crdt"
+       android:textSize="24sp" />
+
+   <EditText
+       android:inputType="numberDecimal"
+       android:id="@+id/Semi12_credit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="230dp"
+       android:layout_marginTop="1420dp"
+       android:hint="@string/sem12crdt"
+       android:textSize="20sp" />
+  </RelativeLayout>
+ </ScrollView>
+
+ <Button
+     android:id="@+id/btn_id"
+     android:layout_width="180dp"
+     android:layout_height="60dp"
+     android:layout_marginLeft="110dp"
+     android:layout_marginTop="10dp"
+     android:background="@drawable/custom_button"
+     android:text="@string/button_text1"
+     android:textColor="@color/colorPrimary"
+     android:textSize="20sp"
+     android:textStyle="bold">
+
+ </Button>
+
+ <EditText
+     android:id="@+id/result_Id"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center"
+     android:hint="Your CGPA is:"
+     android:padding="30dp"
+     android:text="Your CGPA is:"
+     android:textSize="20sp"></EditText>
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Developed By: Sourabh Roy Biswes"
+     android:textStyle="bold"
+     android:textSize="20sp"
+     android:textColor="@color/colorPrimaryDark"></TextView>
+</LinearLayout>
